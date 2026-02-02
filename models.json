@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "updated_at": "2026-02-02T10:34:50.196520Z",
+    "updated_at": "2026-02-02T10:51:27.657795Z",
     "sora": {
         "video": [
             {
@@ -197,5 +197,5 @@
             }
         ]
     },
-    "signature": "1b553b97676f2f4a948ab03aaa5a0c2f7d488d2da7fef013ffc201d423369864"
+    "signature": "91ddecd0486b12dfb98509237cd6298fbdb33e7f9a28ececd82245bb63084c37"
 }
