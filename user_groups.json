@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "updated_at": "2026-02-02T10:30:46.210458Z",
+    "updated_at": "2026-02-02T10:34:50.206123Z",
     "_comment": "用户分组配置 - 不同用户组有不同的权限和限制",
     "groups": {
         "vip": {
@@ -63,5 +63,5 @@
     },
     "default_group": "free",
     "_comment2": "用户组分配需要服务端验证，此文件仅定义权限模板",
-    "signature": "bee3de113e698d98f6c586753f9f5917b8d64225b55f01c5ccf8ee6452433b4c"
+    "signature": "f0dafb96433f62124ef8d3830e231eaf77fb7b9f5c870e4ecf17c3d3557c69f1"
 }
