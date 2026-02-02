@@ -1,0 +1,61 @@
+{
+    "version": 1,
+    "updated_at": "2026-02-01T12:00:00Z",
+    
+    "_comment": "功能开关 - true 启用，false 禁用",
+    "feature_flags": {
+        "proxy.enabled": true,
+        "token.auto_refresh_enabled": true,
+        "sora.browser_mode_enabled": false,
+        "watermark.enabled": true,
+        "ui.animation_enabled": true,
+        "generation.auto_download": true,
+        "comfyui.enabled": true,
+        "custom_image.enabled": true,
+        "custom_video.enabled": true,
+        "captcha.fallback_enabled": true,
+        "plugin_system.enabled": true,
+        "storyboard.enabled": true,
+        "batch_generation.enabled": true,
+        "character_creation.enabled": true,
+        "export_jianying.enabled": true,
+        "multi_project_tabs.enabled": true,
+        "undo_redo.enabled": true
+    },
+    
+    "_comment2": "使用限制",
+    "limits": {
+        "max_concurrent_tasks": 5,
+        "max_video_duration": 25,
+        "max_image_batch": 4,
+        "max_prompt_length": 2000,
+        "max_projects_open": 5,
+        "max_characters_per_project": 50,
+        "max_shots_per_project": 500,
+        "max_scenes_per_project": 30,
+        "max_plugins_loaded": 20,
+        "rate_limit_per_minute": 10
+    },
+    
+    "_comment3": "默认参数",
+    "default_params": {
+        "generation.default_provider": "sora",
+        "generation.default_duration": 10,
+        "generation.default_resolution": "1080p",
+        "llm.provider": "siliconflow",
+        "llm.model": "Qwen/Qwen2.5-72B-Instruct",
+        "llm.api_base": "https://api.siliconflow.cn/v1",
+        "watermark.api_url": "https://api.sorai.me",
+        "comfyui.server_url": "http://127.0.0.1:8188"
+    },
+    
+    "_comment4": "界面配置",
+    "ui_config": {
+        "show_tips": true,
+        "show_changelog_on_update": true,
+        "theme": "dark",
+        "language": "zh-CN",
+        "show_provider_icons": true,
+        "compact_mode": false
+    }
+}

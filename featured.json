@@ -1,0 +1,127 @@
+{
+    "version": 1,
+    "updated_at": "2026-02-01T12:00:00Z",
+    
+    "_comment": "推荐内容 - 热门提示词、风格模板等",
+    
+    "prompts": {
+        "hot": [
+            {
+                "id": "p001",
+                "text": "一只橘猫坐在窗台上，窗外是下雨的城市夜景，霓虹灯光映在玻璃上",
+                "category": "动物",
+                "tags": ["猫", "夜景", "雨天"],
+                "preview_url": ""
+            },
+            {
+                "id": "p002", 
+                "text": "赛博朋克风格的未来城市，飞行汽车穿梭在高楼之间，霓虹灯闪烁",
+                "category": "科幻",
+                "tags": ["赛博朋克", "城市", "未来"],
+                "preview_url": ""
+            },
+            {
+                "id": "p003",
+                "text": "一位穿着汉服的少女在樱花树下起舞，花瓣飘落，阳光温暖",
+                "category": "人物",
+                "tags": ["汉服", "樱花", "少女"],
+                "preview_url": ""
+            },
+            {
+                "id": "p004",
+                "text": "宇航员漂浮在太空中，背景是蓝色的地球和璀璨的星空",
+                "category": "科幻",
+                "tags": ["太空", "宇航员", "地球"],
+                "preview_url": ""
+            },
+            {
+                "id": "p005",
+                "text": "古风山水画，云雾缭绕的山峰，小桥流水，一叶扁舟",
+                "category": "风景",
+                "tags": ["古风", "山水", "中国画"],
+                "preview_url": ""
+            }
+        ],
+        "categories": [
+            {"id": "animal", "name": "动物", "icon": "🐱"},
+            {"id": "scifi", "name": "科幻", "icon": "🚀"},
+            {"id": "character", "name": "人物", "icon": "👤"},
+            {"id": "landscape", "name": "风景", "icon": "🏔️"},
+            {"id": "food", "name": "美食", "icon": "🍜"},
+            {"id": "abstract", "name": "抽象", "icon": "🎨"}
+        ]
+    },
+    
+    "styles": [
+        {
+            "id": "anime",
+            "name": "动漫风格",
+            "description": "日系动漫画风",
+            "suffix": ", anime style, vibrant colors",
+            "preview_url": "",
+            "enabled": true
+        },
+        {
+            "id": "realistic",
+            "name": "写实风格",
+            "description": "照片级真实感",
+            "suffix": ", photorealistic, 8k, highly detailed",
+            "preview_url": "",
+            "enabled": true
+        },
+        {
+            "id": "oil_painting",
+            "name": "油画风格",
+            "description": "经典油画质感",
+            "suffix": ", oil painting style, brush strokes visible",
+            "preview_url": "",
+            "enabled": true
+        },
+        {
+            "id": "watercolor",
+            "name": "水彩风格",
+            "description": "清新水彩画风",
+            "suffix": ", watercolor painting, soft colors, flowing",
+            "preview_url": "",
+            "enabled": true
+        },
+        {
+            "id": "cyberpunk",
+            "name": "赛博朋克",
+            "description": "霓虹科技感",
+            "suffix": ", cyberpunk style, neon lights, futuristic",
+            "preview_url": "",
+            "enabled": true
+        },
+        {
+            "id": "chinese_ink",
+            "name": "水墨风格",
+            "description": "中国传统水墨",
+            "suffix": ", chinese ink painting style, minimalist",
+            "preview_url": "",
+            "enabled": true
+        },
+        {
+            "id": "pixel_art",
+            "name": "像素风格",
+            "description": "复古像素画",
+            "suffix": ", pixel art style, 8-bit, retro game",
+            "preview_url": "",
+            "enabled": true
+        },
+        {
+            "id": "3d_render",
+            "name": "3D 渲染",
+            "description": "三维建模渲染",
+            "suffix": ", 3d render, octane render, blender",
+            "preview_url": "",
+            "enabled": true
+        }
+    ],
+    
+    "negative_prompts": {
+        "default": "low quality, blurry, distorted, deformed, ugly, bad anatomy",
+        "portrait": "low quality, blurry, distorted face, extra fingers, bad hands",
+        "landscape": "low quality, blurry, oversaturated, artificial looking"
+    }
+}

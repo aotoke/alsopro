@@ -1,0 +1,43 @@
+{
+    "version": 1,
+    "updated_at": "2026-02-01T12:00:00Z",
+    
+    "_comment": "内容过滤配置 - 敏感词、违禁词等",
+    
+    "enabled": true,
+    
+    "blocked_words": [
+        "示例敏感词1",
+        "示例敏感词2"
+    ],
+    
+    "warning_words": [
+        "示例警告词1",
+        "示例警告词2"
+    ],
+    
+    "replacement_rules": [
+        {
+            "pattern": "示例替换词",
+            "replacement": "***"
+        }
+    ],
+    
+    "blocked_patterns": [
+        
+    ],
+    
+    "whitelist": [
+        "允许的特殊词汇"
+    ],
+    
+    "actions": {
+        "on_blocked": "reject",
+        "on_warning": "warn",
+        "warning_message": "您的内容可能包含敏感信息，请确认是否继续"
+    },
+    
+    "remote_list_url": "",
+    
+    "_comment2": "敏感词列表可以设置 remote_list_url 从远程加载，避免放在公开仓库"
+}

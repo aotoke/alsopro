@@ -1,0 +1,70 @@
+{
+    "version": 1,
+    "updated_at": "2026-02-01T12:00:00Z",
+    
+    "_comment": "用户分组配置 - 不同用户组有不同的权限和限制",
+    
+    "groups": {
+        "vip": {
+            "name": "VIP 用户",
+            "description": "付费用户，享受更多功能",
+            "limits": {
+                "max_concurrent_tasks": 10,
+                "max_video_duration": 60,
+                "max_image_batch": 8,
+                "max_projects_open": 10,
+                "max_shots_per_project": 1000,
+                "rate_limit_per_minute": 30
+            },
+            "features": {
+                "watermark.enabled": true,
+                "batch_generation.enabled": true,
+                "export_jianying.enabled": true,
+                "priority_queue": true,
+                "no_ads": true
+            }
+        },
+        "pro": {
+            "name": "专业版用户",
+            "description": "专业创作者",
+            "limits": {
+                "max_concurrent_tasks": 5,
+                "max_video_duration": 25,
+                "max_image_batch": 4,
+                "max_projects_open": 5,
+                "max_shots_per_project": 500,
+                "rate_limit_per_minute": 15
+            },
+            "features": {
+                "watermark.enabled": true,
+                "batch_generation.enabled": true,
+                "export_jianying.enabled": true,
+                "priority_queue": false,
+                "no_ads": true
+            }
+        },
+        "free": {
+            "name": "免费用户",
+            "description": "基础功能",
+            "limits": {
+                "max_concurrent_tasks": 2,
+                "max_video_duration": 10,
+                "max_image_batch": 2,
+                "max_projects_open": 2,
+                "max_shots_per_project": 100,
+                "rate_limit_per_minute": 5
+            },
+            "features": {
+                "watermark.enabled": false,
+                "batch_generation.enabled": false,
+                "export_jianying.enabled": false,
+                "priority_queue": false,
+                "no_ads": false
+            }
+        }
+    },
+    
+    "default_group": "free",
+    
+    "_comment2": "用户组分配需要服务端验证，此文件仅定义权限模板"
+}

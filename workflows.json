@@ -1,0 +1,102 @@
+{
+    "version": 1,
+    "updated_at": "2026-02-01T12:00:00Z",
+    
+    "categories": [
+        {"id": "txt2img", "name": "文生图", "icon": "🖼️"},
+        {"id": "img2img", "name": "图生图", "icon": "🔄"},
+        {"id": "txt2vid", "name": "文生视频", "icon": "🎬"},
+        {"id": "img2vid", "name": "图生视频", "icon": "📹"},
+        {"id": "effect", "name": "特效", "icon": "✨"},
+        {"id": "utility", "name": "工具", "icon": "🔧"}
+    ],
+    
+    "templates": [
+        {
+            "id": "txt2img_sdxl",
+            "name": "文生图 SDXL",
+            "description": "使用 SDXL 模型进行高质量文生图",
+            "category": "txt2img",
+            "version": "1.0.0",
+            "download_url": "",
+            "preview_url": "",
+            "file_size": 0,
+            "requires": ["sdxl_base"],
+            "enabled": true,
+            "is_new": false,
+            "is_builtin": true
+        },
+        {
+            "id": "img2vid_svd",
+            "name": "图生视频 SVD",
+            "description": "使用 Stable Video Diffusion 将图片转换为视频",
+            "category": "img2vid",
+            "version": "1.0.0",
+            "download_url": "",
+            "preview_url": "",
+            "file_size": 0,
+            "requires": ["svd_model"],
+            "enabled": true,
+            "is_new": false,
+            "is_builtin": true
+        },
+        {
+            "id": "img2vid_animatediff",
+            "name": "图生视频 AnimateDiff",
+            "description": "使用 AnimateDiff 生成动画视频",
+            "category": "img2vid",
+            "version": "1.0.0",
+            "download_url": "",
+            "preview_url": "",
+            "file_size": 0,
+            "requires": ["animatediff"],
+            "enabled": true,
+            "is_new": false,
+            "is_builtin": true
+        },
+        {
+            "id": "controlnet_pose",
+            "name": "ControlNet 姿势控制",
+            "description": "使用 OpenPose 控制人物姿势",
+            "category": "img2img",
+            "version": "1.0.0",
+            "download_url": "",
+            "preview_url": "",
+            "file_size": 0,
+            "requires": ["controlnet_openpose"],
+            "enabled": true,
+            "is_new": true,
+            "is_builtin": true
+        },
+        {
+            "id": "inpaint_sdxl",
+            "name": "SDXL 局部重绘",
+            "description": "使用蒙版进行局部图片编辑",
+            "category": "img2img",
+            "version": "1.0.0",
+            "download_url": "",
+            "preview_url": "",
+            "file_size": 0,
+            "requires": ["sdxl_base"],
+            "enabled": true,
+            "is_new": true,
+            "is_builtin": true
+        },
+        {
+            "id": "outpaint_sdxl",
+            "name": "SDXL 图片扩展",
+            "description": "向外扩展图片边界",
+            "category": "img2img",
+            "version": "1.0.0",
+            "download_url": "",
+            "preview_url": "",
+            "file_size": 0,
+            "requires": ["sdxl_base"],
+            "enabled": true,
+            "is_new": true,
+            "is_builtin": true
+        }
+    ],
+    
+    "_comment": "添加新工作流：设置 download_url 后客户端会自动下载"
+}

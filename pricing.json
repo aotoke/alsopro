@@ -1,0 +1,82 @@
+{
+    "version": 1,
+    "updated_at": "2026-02-01T12:00:00Z",
+    
+    "_comment": "定价/积分配置 - 不同功能消耗不同积分",
+    
+    "enabled": false,
+    
+    "currency": {
+        "name": "积分",
+        "symbol": "💎",
+        "decimal_places": 0
+    },
+    
+    "generation_costs": {
+        "sora": {
+            "sora-10s": 10,
+            "sora-15s": 15,
+            "sora-25s": 25
+        },
+        "dreamina": {
+            "text_to_image": 1,
+            "image_to_image": 1,
+            "text_to_video": 5,
+            "image_to_video": 5
+        },
+        "flow": {
+            "text_to_image": 2,
+            "text_to_video": 10
+        },
+        "comfyui": {
+            "_comment": "本地生成不消耗积分",
+            "default": 0
+        }
+    },
+    
+    "feature_costs": {
+        "watermark_removal": 2,
+        "batch_export": 5,
+        "export_jianying": 0
+    },
+    
+    "free_quota": {
+        "daily": {
+            "generations": 10,
+            "reset_hour": 0
+        },
+        "monthly": {
+            "generations": 100,
+            "reset_day": 1
+        }
+    },
+    
+    "packages": [
+        {
+            "id": "starter",
+            "name": "入门包",
+            "credits": 100,
+            "price": 9.9,
+            "currency": "CNY",
+            "bonus": 0
+        },
+        {
+            "id": "standard",
+            "name": "标准包",
+            "credits": 500,
+            "price": 39.9,
+            "currency": "CNY",
+            "bonus": 50
+        },
+        {
+            "id": "premium",
+            "name": "高级包",
+            "credits": 1000,
+            "price": 69.9,
+            "currency": "CNY",
+            "bonus": 200
+        }
+    ],
+    
+    "_comment2": "积分系统默认关闭，需要服务端配合实现余额验证"
+}

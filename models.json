@@ -1,0 +1,205 @@
+{
+    "version": 1,
+    "updated_at": "2026-02-01T12:00:00Z",
+    
+    "sora": {
+        "video": [
+            {
+                "id": "sora-10s",
+                "name": "Sora 10秒",
+                "duration": 10,
+                "enabled": true,
+                "is_default": true,
+                "description": "适合短视频、片头"
+            },
+            {
+                "id": "sora-15s",
+                "name": "Sora 15秒",
+                "duration": 15,
+                "enabled": true,
+                "is_default": false,
+                "description": "适合中等长度内容"
+            },
+            {
+                "id": "sora-25s",
+                "name": "Sora 25秒",
+                "duration": 25,
+                "enabled": true,
+                "is_default": false,
+                "description": "适合长视频、完整场景"
+            }
+        ],
+        "image": []
+    },
+    
+    "dreamina": {
+        "video": [
+            {
+                "id": "pixeldance-v1.5",
+                "name": "PixelDance 1.5",
+                "enabled": true,
+                "is_default": true,
+                "description": "高质量视频生成"
+            },
+            {
+                "id": "seaweed-v1.0",
+                "name": "Seaweed 1.0",
+                "enabled": true,
+                "is_default": false,
+                "description": "快速视频生成"
+            }
+        ],
+        "image": [
+            {
+                "id": "jimeng-4.5",
+                "name": "Image 4.5",
+                "enabled": true,
+                "is_default": true,
+                "description": "最新图片模型"
+            },
+            {
+                "id": "jimeng-4.1",
+                "name": "Image 4.1",
+                "enabled": true,
+                "is_default": false
+            },
+            {
+                "id": "jimeng-4.0",
+                "name": "Image 4.0",
+                "enabled": true,
+                "is_default": false
+            },
+            {
+                "id": "nano-banana-pro",
+                "name": "Nano Banana Pro",
+                "enabled": true,
+                "is_default": false,
+                "description": "高质量艺术风格"
+            },
+            {
+                "id": "nano-banana",
+                "name": "Nano Banana",
+                "enabled": true,
+                "is_default": false,
+                "description": "快速艺术风格"
+            }
+        ]
+    },
+    
+    "flow": {
+        "video": [
+            {
+                "id": "veo-3.1",
+                "name": "Veo 3.1",
+                "enabled": true,
+                "is_default": true,
+                "description": "Google 最新视频模型"
+            },
+            {
+                "id": "veo-3.0",
+                "name": "Veo 3.0",
+                "enabled": true,
+                "is_default": false
+            }
+        ],
+        "image": [
+            {
+                "id": "imagen-4",
+                "name": "Imagen 4",
+                "enabled": true,
+                "is_default": true,
+                "description": "Google 图片模型"
+            },
+            {
+                "id": "gemini-flash",
+                "name": "Gemini Flash",
+                "enabled": true,
+                "is_default": false,
+                "description": "快速图片生成"
+            }
+        ]
+    },
+    
+    "comfyui": {
+        "workflows": [
+            {
+                "id": "txt2img_sdxl",
+                "name": "文生图 SDXL",
+                "category": "txt2img",
+                "enabled": true,
+                "is_default": true
+            },
+            {
+                "id": "img2vid_svd",
+                "name": "图生视频 SVD",
+                "category": "img2vid",
+                "enabled": true
+            },
+            {
+                "id": "img2vid_animatediff",
+                "name": "图生视频 AnimateDiff",
+                "category": "img2vid",
+                "enabled": true
+            },
+            {
+                "id": "controlnet_pose",
+                "name": "ControlNet 姿势",
+                "category": "img2img",
+                "enabled": true
+            },
+            {
+                "id": "inpaint_sdxl",
+                "name": "局部重绘",
+                "category": "img2img",
+                "enabled": true
+            },
+            {
+                "id": "outpaint_sdxl",
+                "name": "图片扩展",
+                "category": "img2img",
+                "enabled": true
+            }
+        ]
+    },
+    
+    "llm": {
+        "models": [
+            {
+                "id": "Qwen/Qwen2.5-72B-Instruct",
+                "name": "Qwen 2.5 72B",
+                "provider": "siliconflow",
+                "api_base": "https://api.siliconflow.cn/v1",
+                "enabled": true,
+                "is_default": true,
+                "description": "免费、高质量"
+            },
+            {
+                "id": "deepseek-chat",
+                "name": "DeepSeek Chat",
+                "provider": "deepseek",
+                "api_base": "https://api.deepseek.com/v1",
+                "enabled": true,
+                "is_default": false,
+                "description": "便宜、快速"
+            },
+            {
+                "id": "gpt-4o",
+                "name": "GPT-4o",
+                "provider": "openai",
+                "api_base": "https://api.openai.com/v1",
+                "enabled": true,
+                "is_default": false,
+                "description": "OpenAI 最强模型"
+            },
+            {
+                "id": "claude-3-5-sonnet",
+                "name": "Claude 3.5 Sonnet",
+                "provider": "anthropic",
+                "api_base": "https://api.anthropic.com/v1",
+                "enabled": true,
+                "is_default": false,
+                "description": "Anthropic 旗舰模型"
+            }
+        ]
+    }
+}
