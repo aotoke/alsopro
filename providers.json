@@ -1,7 +1,6 @@
 {
     "version": 1,
-    "updated_at": "2026-02-01T12:00:00Z",
-    
+    "updated_at": "2026-02-02T03:48:38.508225Z",
     "providers": {
         "sora": {
             "id": "sora",
@@ -10,7 +9,10 @@
             "maintenance": false,
             "notice": "",
             "maintenance_end": "",
-            "capabilities": ["text_to_video", "image_to_video"],
+            "capabilities": [
+                "text_to_video",
+                "image_to_video"
+            ],
             "icon": "🎬",
             "color": "#00D4AA",
             "priority": 1,
@@ -26,7 +28,11 @@
             "maintenance": false,
             "notice": "",
             "maintenance_end": "",
-            "capabilities": ["text_to_video", "image_to_video", "text_to_image"],
+            "capabilities": [
+                "text_to_video",
+                "image_to_video",
+                "text_to_image"
+            ],
             "icon": "🎨",
             "color": "#FF6B6B",
             "priority": 2,
@@ -42,7 +48,11 @@
             "maintenance": false,
             "notice": "",
             "maintenance_end": "",
-            "capabilities": ["text_to_video", "image_to_video", "text_to_image"],
+            "capabilities": [
+                "text_to_video",
+                "image_to_video",
+                "text_to_image"
+            ],
             "icon": "🌊",
             "color": "#4ECDC4",
             "priority": 3,
@@ -58,7 +68,11 @@
             "maintenance": false,
             "notice": "",
             "maintenance_end": "",
-            "capabilities": ["text_to_image", "image_to_image", "image_to_video"],
+            "capabilities": [
+                "text_to_image",
+                "image_to_image",
+                "image_to_video"
+            ],
             "icon": "🖥️",
             "color": "#9B59B6",
             "priority": 4,
@@ -72,7 +86,9 @@
             "enabled": true,
             "maintenance": false,
             "notice": "",
-            "capabilities": ["text_to_image"],
+            "capabilities": [
+                "text_to_image"
+            ],
             "icon": "🔌",
             "color": "#F39C12",
             "priority": 5,
@@ -87,7 +103,9 @@
             "enabled": true,
             "maintenance": false,
             "notice": "",
-            "capabilities": ["text_to_video"],
+            "capabilities": [
+                "text_to_video"
+            ],
             "icon": "🔌",
             "color": "#E74C3C",
             "priority": 6,
@@ -96,5 +114,6 @@
             "token_type": "custom",
             "description": "第三方视频生成 API"
         }
-    }
+    },
+    "signature": "0f9195352b3479a32b1fef1e2deb7bd3b5078295bf968d9776f5988fd0d6a0a8"
 }

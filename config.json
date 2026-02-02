@@ -1,7 +1,7 @@
 {
     "version": 1,
-    "updated_at": "2026-02-01T12:00:00Z",
-    
+    "updated_at": "2026-02-02T03:48:38.508225Z",
+    "signature": "5e690066b121e46d8e4b95cf237845bf7b1e8652c6f81bff142966f13fe37a1a",
     "_comment": "功能开关 - true 启用，false 禁用",
     "feature_flags": {
         "proxy.enabled": true,
@@ -22,7 +22,6 @@
         "multi_project_tabs.enabled": true,
         "undo_redo.enabled": true
     },
-    
     "_comment2": "使用限制",
     "limits": {
         "max_concurrent_tasks": 5,
@@ -36,7 +35,6 @@
         "max_plugins_loaded": 20,
         "rate_limit_per_minute": 10
     },
-    
     "_comment3": "默认参数",
     "default_params": {
         "generation.default_provider": "sora",
@@ -48,7 +46,6 @@
         "watermark.api_url": "https://api.sorai.me",
         "comfyui.server_url": "http://127.0.0.1:8188"
     },
-    
     "_comment4": "界面配置",
     "ui_config": {
         "show_tips": true,

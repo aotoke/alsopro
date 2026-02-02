@@ -1,7 +1,6 @@
 {
     "version": 1,
-    "updated_at": "2026-02-01T12:00:00Z",
-    
+    "updated_at": "2026-02-02T03:48:38.508225Z",
     "sora": {
         "video": [
             {
@@ -31,7 +30,6 @@
         ],
         "image": []
     },
-    
     "dreamina": {
         "video": [
             {
@@ -85,7 +83,6 @@
             }
         ]
     },
-    
     "flow": {
         "video": [
             {
@@ -119,7 +116,6 @@
             }
         ]
     },
-    
     "comfyui": {
         "workflows": [
             {
@@ -161,7 +157,6 @@
             }
         ]
     },
-    
     "llm": {
         "models": [
             {
@@ -201,5 +196,6 @@
                 "description": "Anthropic 旗舰模型"
             }
         ]
-    }
+    },
+    "signature": "035a2ca61c2ed9bdfb89f50edd1847a42694706b008f62217547193b92f6a9a2"
 }

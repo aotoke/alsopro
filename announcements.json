@@ -2,8 +2,8 @@
     "announcements": [
         {
             "id": "welcome-001",
-            "title": "欢迎使用 AlsoPro",
-            "content": "感谢使用 AlsoPro！\n\n如有问题请加入用户群交流。\n\n祝创作愉快！",
+            "title": "欢迎交流",
+            "content": "欢迎交流！",
             "type": "info",
             "priority": 10,
             "created_at": "2026-02-01T00:00:00Z",
