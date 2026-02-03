@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "updated_at": "2026-02-03T08:18:14.251695Z",
+    "updated_at": "2026-02-03T10:28:27.831893Z",
     "_comment": "定价/积分配置 - 不同功能消耗不同积分",
     "enabled": false,
     "currency": {
@@ -71,5 +71,5 @@
         }
     ],
     "_comment2": "积分系统默认关闭，需要服务端配合实现余额验证",
-    "signature": "23d6eb174e9f8fe3353364f4c883e0b511c12949bb8a13cca1d6f8e5146f5626"
+    "signature": "cfb4dc5efb8a1027728e220674c3edab8597831dd8d2bdba1a03087d79c1b10c"
 }

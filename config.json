@@ -1,7 +1,7 @@
 {
     "version": 1,
-    "updated_at": "2026-02-03T08:18:14.245711Z",
-    "signature": "04d89de17ad2f05f294496ff6922a9df27d1d6001b01e567c32ae876b6ed5034",
+    "updated_at": "2026-02-03T10:28:27.826906Z",
+    "signature": "186a137f072acf0757254ae30d294e601e3808ab78abeb695065b8bbf5a51e71",
     "_comment": "功能开关 - true 启用，false 禁用",
     "feature_flags": {
         "proxy.enabled": true,
