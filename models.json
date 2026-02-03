@@ -1,31 +1,33 @@
 {
-    "version": 1,
-    "updated_at": "2026-02-02T10:51:27.657795Z",
+    "version": 2,
+    "updated_at": "2026-02-03T06:40:38.185172Z",
     "sora": {
         "video": [
             {
-                "id": "sora-10s",
-                "name": "Sora 10秒",
-                "duration": 10,
+                "id": "sora2-10s",
+                "name": "Sora 2.0 10s",
                 "enabled": true,
                 "is_default": true,
-                "description": "适合短视频、片头"
+                "caps": [
+                    "text_to_video",
+                    "image_to_video"
+                ]
             },
             {
-                "id": "sora-15s",
-                "name": "Sora 15秒",
-                "duration": 15,
+                "id": "sora2-15s",
+                "name": "Sora 2.0 15s",
                 "enabled": true,
-                "is_default": false,
-                "description": "适合中等长度内容"
+                "caps": [
+                    "text_to_video"
+                ]
             },
             {
-                "id": "sora-25s",
-                "name": "Sora 25秒",
-                "duration": 25,
+                "id": "sora2-25s",
+                "name": "Sora 2.0 25s (Pro)",
                 "enabled": true,
-                "is_default": false,
-                "description": "适合长视频、完整场景"
+                "caps": [
+                    "text_to_video"
+                ]
             }
         ],
         "image": []
@@ -33,18 +35,59 @@
     "dreamina": {
         "video": [
             {
-                "id": "pixeldance-v1.5",
-                "name": "PixelDance 1.5",
+                "id": "dreamina-3.5-pro",
+                "name": "Video 3.5 Pro",
                 "enabled": true,
                 "is_default": true,
-                "description": "高质量视频生成"
+                "caps": [
+                    "text_to_video",
+                    "image_to_video"
+                ]
             },
             {
-                "id": "seaweed-v1.0",
-                "name": "Seaweed 1.0",
+                "id": "dreamina-3.0-pro",
+                "name": "Video 3.0 Pro+",
                 "enabled": true,
-                "is_default": false,
-                "description": "快速视频生成"
+                "caps": [
+                    "text_to_video",
+                    "image_to_video"
+                ]
+            },
+            {
+                "id": "dreamina-3.0-fast",
+                "name": "Video 3.0 Fast",
+                "enabled": true,
+                "caps": [
+                    "text_to_video",
+                    "image_to_video"
+                ]
+            },
+            {
+                "id": "dreamina-3.0",
+                "name": "Video 3.0",
+                "enabled": true,
+                "caps": [
+                    "text_to_video",
+                    "image_to_video"
+                ]
+            },
+            {
+                "id": "dreamina-sora2",
+                "name": "Sora 2",
+                "enabled": true,
+                "caps": [
+                    "text_to_video",
+                    "image_to_video"
+                ]
+            },
+            {
+                "id": "dreamina-veo3",
+                "name": "Veo 3.1",
+                "enabled": true,
+                "caps": [
+                    "text_to_video",
+                    "image_to_video"
+                ]
             }
         ],
         "image": [
@@ -53,66 +96,254 @@
                 "name": "Image 4.5",
                 "enabled": true,
                 "is_default": true,
-                "description": "最新图片模型"
+                "caps": [
+                    "text_to_image",
+                    "image_to_image"
+                ]
             },
             {
                 "id": "jimeng-4.1",
                 "name": "Image 4.1",
                 "enabled": true,
-                "is_default": false
+                "caps": [
+                    "text_to_image",
+                    "image_to_image"
+                ]
             },
             {
                 "id": "jimeng-4.0",
                 "name": "Image 4.0",
                 "enabled": true,
-                "is_default": false
+                "caps": [
+                    "text_to_image",
+                    "image_to_image"
+                ]
             },
             {
-                "id": "nano-banana-pro",
+                "id": "nanobananapro",
                 "name": "Nano Banana Pro",
                 "enabled": true,
-                "is_default": false,
-                "description": "高质量艺术风格"
+                "caps": [
+                    "text_to_image",
+                    "image_to_image"
+                ]
             },
             {
-                "id": "nano-banana",
+                "id": "nanobanana",
                 "name": "Nano Banana",
                 "enabled": true,
-                "is_default": false,
-                "description": "快速艺术风格"
+                "caps": [
+                    "text_to_image",
+                    "image_to_image"
+                ]
+            },
+            {
+                "id": "jimeng-3.1",
+                "name": "Image 3.1",
+                "enabled": true,
+                "caps": [
+                    "text_to_image"
+                ]
+            },
+            {
+                "id": "jimeng-3.0",
+                "name": "Image 3.0",
+                "enabled": true,
+                "caps": [
+                    "text_to_image",
+                    "image_to_image"
+                ]
+            },
+            {
+                "id": "jimeng-2.0-pro",
+                "name": "Image 2.0 Pro",
+                "enabled": true,
+                "caps": [
+                    "text_to_image",
+                    "image_to_image"
+                ]
             }
         ]
     },
     "flow": {
         "video": [
             {
-                "id": "veo-3.1",
-                "name": "Veo 3.1",
+                "id": "veo_3_1_t2v_fast_landscape",
+                "name": "Veo 3.1 Fast 横屏",
                 "enabled": true,
                 "is_default": true,
-                "description": "Google 最新视频模型"
+                "caps": [
+                    "text_to_video"
+                ]
             },
             {
-                "id": "veo-3.0",
-                "name": "Veo 3.0",
+                "id": "veo_3_1_t2v_fast_portrait",
+                "name": "Veo 3.1 Fast 竖屏",
                 "enabled": true,
-                "is_default": false
+                "caps": [
+                    "text_to_video"
+                ]
+            },
+            {
+                "id": "veo_3_1_t2v_portrait",
+                "name": "Veo 3.1 竖屏",
+                "enabled": true,
+                "caps": [
+                    "text_to_video"
+                ]
+            },
+            {
+                "id": "veo_2_1_fast_d_15_t2v_landscape",
+                "name": "Veo 2.1 横屏",
+                "enabled": true,
+                "caps": [
+                    "text_to_video"
+                ]
+            },
+            {
+                "id": "veo_2_1_fast_d_15_t2v_portrait",
+                "name": "Veo 2.1 竖屏",
+                "enabled": true,
+                "caps": [
+                    "text_to_video"
+                ]
+            },
+            {
+                "id": "veo_2_0_t2v_landscape",
+                "name": "Veo 2.0 横屏",
+                "enabled": true,
+                "caps": [
+                    "text_to_video"
+                ]
+            },
+            {
+                "id": "veo_2_0_t2v_portrait",
+                "name": "Veo 2.0 竖屏",
+                "enabled": true,
+                "caps": [
+                    "text_to_video"
+                ]
+            },
+            {
+                "id": "veo_3_1_i2v_s_fast_fl_landscape",
+                "name": "Veo 3.1 I2V Fast 横屏",
+                "enabled": true,
+                "caps": [
+                    "image_to_video"
+                ]
+            },
+            {
+                "id": "veo_3_1_i2v_s_fast_fl_portrait",
+                "name": "Veo 3.1 I2V Fast 竖屏",
+                "enabled": true,
+                "caps": [
+                    "image_to_video"
+                ]
+            },
+            {
+                "id": "veo_3_1_i2v_s_landscape",
+                "name": "Veo 3.1 I2V 横屏",
+                "enabled": true,
+                "caps": [
+                    "image_to_video"
+                ]
+            },
+            {
+                "id": "veo_3_1_i2v_s_portrait",
+                "name": "Veo 3.1 I2V 竖屏",
+                "enabled": true,
+                "caps": [
+                    "image_to_video"
+                ]
+            },
+            {
+                "id": "veo_2_1_fast_d_15_i2v_landscape",
+                "name": "Veo 2.1 I2V 横屏",
+                "enabled": true,
+                "caps": [
+                    "image_to_video"
+                ]
+            },
+            {
+                "id": "veo_2_1_fast_d_15_i2v_portrait",
+                "name": "Veo 2.1 I2V 竖屏",
+                "enabled": true,
+                "caps": [
+                    "image_to_video"
+                ]
+            },
+            {
+                "id": "veo_3_0_r2v_fast_landscape",
+                "name": "Veo 3.0 R2V 横屏",
+                "enabled": true,
+                "caps": [
+                    "image_to_video"
+                ]
+            },
+            {
+                "id": "veo_3_0_r2v_fast_portrait",
+                "name": "Veo 3.0 R2V 竖屏",
+                "enabled": true,
+                "caps": [
+                    "image_to_video"
+                ]
             }
         ],
         "image": [
             {
-                "id": "imagen-4",
-                "name": "Imagen 4",
+                "id": "imagen-4.0-generate-preview-landscape",
+                "name": "Imagen 4 横屏",
                 "enabled": true,
                 "is_default": true,
-                "description": "Google 图片模型"
+                "caps": [
+                    "text_to_image",
+                    "image_to_image"
+                ]
             },
             {
-                "id": "gemini-flash",
-                "name": "Gemini Flash",
+                "id": "imagen-4.0-generate-preview-portrait",
+                "name": "Imagen 4 竖屏",
                 "enabled": true,
-                "is_default": false,
-                "description": "快速图片生成"
+                "caps": [
+                    "text_to_image",
+                    "image_to_image"
+                ]
+            },
+            {
+                "id": "gemini-3.0-pro-image-landscape",
+                "name": "Gemini 3.0 Pro 横屏",
+                "enabled": true,
+                "caps": [
+                    "text_to_image",
+                    "image_to_image"
+                ]
+            },
+            {
+                "id": "gemini-3.0-pro-image-portrait",
+                "name": "Gemini 3.0 Pro 竖屏",
+                "enabled": true,
+                "caps": [
+                    "text_to_image",
+                    "image_to_image"
+                ]
+            },
+            {
+                "id": "gemini-2.5-flash-image-landscape",
+                "name": "Gemini 2.5 Flash 横屏",
+                "enabled": true,
+                "caps": [
+                    "text_to_image",
+                    "image_to_image"
+                ]
+            },
+            {
+                "id": "gemini-2.5-flash-image-portrait",
+                "name": "Gemini 2.5 Flash 竖屏",
+                "enabled": true,
+                "caps": [
+                    "text_to_image",
+                    "image_to_image"
+                ]
             }
         ]
     },
@@ -120,82 +351,54 @@
         "workflows": [
             {
                 "id": "txt2img_sdxl",
-                "name": "文生图 SDXL",
+                "name": "SDXL 文生图",
                 "category": "txt2img",
                 "enabled": true,
                 "is_default": true
             },
             {
+                "id": "txt2img_sd15",
+                "name": "SD 1.5 文生图",
+                "category": "txt2img",
+                "enabled": true
+            },
+            {
+                "id": "txt2img_flux",
+                "name": "Flux 文生图",
+                "category": "txt2img",
+                "enabled": true
+            },
+            {
+                "id": "img2img_flux",
+                "name": "Flux 图生图",
+                "category": "img2img",
+                "enabled": true
+            },
+            {
                 "id": "img2vid_svd",
-                "name": "图生视频 SVD",
+                "name": "SVD 图生视频",
                 "category": "img2vid",
                 "enabled": true
             },
             {
                 "id": "img2vid_animatediff",
-                "name": "图生视频 AnimateDiff",
+                "name": "AnimateDiff 动画",
                 "category": "img2vid",
                 "enabled": true
             },
             {
-                "id": "controlnet_pose",
-                "name": "ControlNet 姿势",
-                "category": "img2img",
+                "id": "upscale_realesrgan",
+                "name": "Real-ESRGAN 超分",
+                "category": "upscale",
                 "enabled": true
             },
             {
-                "id": "inpaint_sdxl",
-                "name": "局部重绘",
-                "category": "img2img",
-                "enabled": true
-            },
-            {
-                "id": "outpaint_sdxl",
-                "name": "图片扩展",
-                "category": "img2img",
+                "id": "character_ipadapter",
+                "name": "IP-Adapter 人物",
+                "category": "txt2img",
                 "enabled": true
             }
         ]
     },
-    "llm": {
-        "models": [
-            {
-                "id": "Qwen/Qwen2.5-72B-Instruct",
-                "name": "Qwen 2.5 72B",
-                "provider": "siliconflow",
-                "api_base": "https://api.siliconflow.cn/v1",
-                "enabled": true,
-                "is_default": true,
-                "description": "免费、高质量"
-            },
-            {
-                "id": "deepseek-chat",
-                "name": "DeepSeek Chat",
-                "provider": "deepseek",
-                "api_base": "https://api.deepseek.com/v1",
-                "enabled": true,
-                "is_default": false,
-                "description": "便宜、快速"
-            },
-            {
-                "id": "gpt-4o",
-                "name": "GPT-4o",
-                "provider": "openai",
-                "api_base": "https://api.openai.com/v1",
-                "enabled": true,
-                "is_default": false,
-                "description": "OpenAI 最强模型"
-            },
-            {
-                "id": "claude-3-5-sonnet",
-                "name": "Claude 3.5 Sonnet",
-                "provider": "anthropic",
-                "api_base": "https://api.anthropic.com/v1",
-                "enabled": true,
-                "is_default": false,
-                "description": "Anthropic 旗舰模型"
-            }
-        ]
-    },
-    "signature": "91ddecd0486b12dfb98509237cd6298fbdb33e7f9a28ececd82245bb63084c37"
+    "signature": "74de7da321cc55e5755525d00ebab7cc0bd2bc8b5bafc1a4dcc279fe8b1dee97"
 }

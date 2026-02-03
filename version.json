@@ -1,13 +1,13 @@
 {
     "version": "1.0.0",
     "build": 100,
-    "release_date": "2026-02-01",
+    "release_date": "2026-02-03",
     "download_url": "https://github.com/example/alsopro-releases/releases/download/v1.0.0/AlsoPro-1.0.0.zip",
     "changelog": "## v1.0.0 首个正式版本\n\n### 新功能\n- 支持 Sora/Dreamina/Flow 视频生成\n- 智能分镜系统\n- ComfyUI 本地生成\n- 插件系统\n\n### 优化\n- 界面优化\n- 性能提升",
     "force_update": false,
     "min_version": "0.9.0",
-    "file_size": 52428800,
+    "file_size": 175011792,
     "md5": "",
-    "signature": "7095ef22e82f3fdb2490b146b61403b53bb23745583781f6af5b370873ef09dd",
-    "updated_at": "2026-02-02T10:51:27.658793Z"
+    "signature": "f2e5bf9bba137528f3b33a783fdedd23a31e1bb3843e144e4c81cc9bf55b9b47",
+    "updated_at": "2026-02-03T06:40:38.185172Z"
 }
