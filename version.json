@@ -10,7 +10,7 @@
     "md5": "",
     "component_updates": {
         "storyboard_detail_page": {
-            "version": "1.0.1",
+            "version": "1.0.0",
             "download_url": "https://github.com/aotoke/alsopro/releases/download/v1.0.1/storyboard_detail_page.cp312-win_amd64.pyd",
             "file_size": 0,
             "md5": "",
@@ -20,3 +20,4 @@
     "signature": "741b89ba2d5bc93fa1ecd95c8b2dbe1f93c3ee37420b2762d605aa7156728bb0",
     "updated_at": "2026-02-03T12:24:11.530371Z"
 }
+
