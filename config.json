@@ -1,7 +1,7 @@
 {
     "version": 1,
-    "updated_at": "2026-02-03T06:40:38.185172Z",
-    "signature": "562f7a338c39bd1d0447fda173882a9886d1ba0f2f2858c03febc51a89cb934c",
+    "updated_at": "2026-02-03T08:18:14.245711Z",
+    "signature": "04d89de17ad2f05f294496ff6922a9df27d1d6001b01e567c32ae876b6ed5034",
     "_comment": "功能开关 - true 启用，false 禁用",
     "feature_flags": {
         "proxy.enabled": true,
@@ -43,7 +43,8 @@
         "llm.provider": "siliconflow",
         "llm.model": "Qwen/Qwen2.5-72B-Instruct",
         "llm.api_base": "https://api.siliconflow.cn/v1",
-        "watermark.api_url": "https://api.sorai.me",
+        "watermark.api_url": "",
+        "watermark.api_token": "",
         "comfyui.server_url": "http://127.0.0.1:8188"
     },
     "_comment4": "界面配置",
