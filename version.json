@@ -1,6 +1,6 @@
 {
-    "version": "1.0.1",
-    "build": 101,
+    "version": "1.0.0",
+    "build": 100,
     "release_date": "2026-02-03",
     "download_url": "https://github.com/aotoke/alsopro/releases/download/v1.0.1/AlsoPro-1.0.1.zip",
     "changelog": "## v1.0.1 修复更新\n\n### 修复\n- 修复语音管理面板被遮挡问题\n- 修复 9 个编译错误",
@@ -17,6 +17,6 @@
             "target_path": "_internal/src/gui/pages/storyboard/storyboard_detail_page.cp312-win_amd64.pyd"
         }
     },
-    "signature": "5924688b597f52d769249de2c86c5163a7d0b06d7166d52fe86382991fbd70e6",
-    "updated_at": "2026-02-03T10:57:39.699350Z"
+    "signature": "741b89ba2d5bc93fa1ecd95c8b2dbe1f93c3ee37420b2762d605aa7156728bb0",
+    "updated_at": "2026-02-03T12:24:11.530371Z"
 }
