@@ -2,22 +2,21 @@
     "version": "1.0.0",
     "build": 100,
     "release_date": "2026-02-03",
-    "download_url": "https://github.com/aotoke/alsopro/releases/download/v1.0.1/AlsoPro-1.0.1.zip",
-    "changelog": "## v1.0.1 修复更新\n\n### 修复\n- 修复语音管理面板被遮挡问题\n- 修复 9 个编译错误",
+    "download_url": "https://github.com/aotoke/alsopro/releases/download/v1.0.0/AlsoPro-1.0.0.zip",
+    "changelog": "## v1.0.0 首次发布\n\n### 功能\n- AI 视频生成\n- 分镜脚本管理\n- 多账号管理",
     "force_update": false,
     "min_version": "0.9.0",
-    "file_size": 174508137,
+    "file_size": 0,
     "md5": "",
     "component_updates": {
         "storyboard_detail_page": {
-            "version": "1.0.0",
+            "version": "1.0.1",
             "download_url": "https://github.com/aotoke/alsopro/releases/download/v1.0.1/storyboard_detail_page.cp312-win_amd64.pyd",
             "file_size": 0,
             "md5": "",
             "target_path": "_internal/src/gui/pages/storyboard/storyboard_detail_page.cp312-win_amd64.pyd"
         }
     },
-    "signature": "741b89ba2d5bc93fa1ecd95c8b2dbe1f93c3ee37420b2762d605aa7156728bb0",
-    "updated_at": "2026-02-03T12:24:11.530371Z"
+    "signature": "a43e25bf29f88f4640ab6780f1d537a3f98d62b21923d2a7431d7c855322ec63",
+    "updated_at": "2026-02-03T12:31:44.861237Z"
 }
-
