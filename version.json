@@ -1,13 +1,22 @@
 {
-    "version": "1.0.0",
-    "build": 100,
+    "version": "1.0.1",
+    "build": 101,
     "release_date": "2026-02-03",
-    "download_url": "https://github.com/example/alsopro-releases/releases/download/v1.0.0/AlsoPro-1.0.0.zip",
-    "changelog": "## v1.0.0 首个正式版本\n\n### 新功能\n- 支持 Sora/Dreamina/Flow 视频生成\n- 智能分镜系统\n- ComfyUI 本地生成\n- 插件系统\n\n### 优化\n- 界面优化\n- 性能提升",
+    "download_url": "https://github.com/aotoke/alsopro/releases/download/v1.0.1/AlsoPro-1.0.1.zip",
+    "changelog": "## v1.0.1 修复更新\n\n### 修复\n- 修复语音管理面板被遮挡问题\n- 修复 9 个编译错误",
     "force_update": false,
     "min_version": "0.9.0",
     "file_size": 174508137,
     "md5": "",
-    "signature": "ada2fc883d590266fde3a679305e013076f8914b0c9b3deecf47e537baf19548",
-    "updated_at": "2026-02-03T10:28:27.829898Z"
+    "component_updates": {
+        "storyboard_detail_page": {
+            "version": "1.0.1",
+            "download_url": "https://github.com/aotoke/alsopro/releases/download/v1.0.1/storyboard_detail_page.cp312-win_amd64.pyd",
+            "file_size": 0,
+            "md5": "",
+            "target_path": "_internal/src/gui/pages/storyboard/storyboard_detail_page.cp312-win_amd64.pyd"
+        }
+    },
+    "signature": "5924688b597f52d769249de2c86c5163a7d0b06d7166d52fe86382991fbd70e6",
+    "updated_at": "2026-02-03T10:57:39.699350Z"
 }

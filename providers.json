@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "updated_at": "2026-02-03T10:28:27.827903Z",
+    "updated_at": "2026-02-03T10:57:39.697356Z",
     "providers": {
         "sora": {
             "id": "sora",
@@ -115,5 +115,5 @@
             "description": "第三方视频生成 API"
         }
     },
-    "signature": "965c303253ab410fd684265f41ad9e368f0df18b246360efc21982b45dad0940"
+    "signature": "c5bb1ff28cce244e0505fae9390e56da612293752861f313086cf0e711d3b617"
 }
