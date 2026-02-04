@@ -1,12 +1,12 @@
 {
     "version": "1.0.0",
     "build": 100,
-    "release_date": "2026-02-03",
+    "release_date": "2026-02-04",
     "download_url": "https://github.com/aotoke/alsopro/releases/download/v1.0.0/AlsoPro-1.0.0.zip",
     "changelog": "## v1.0.0 首次发布\n\n### 功能\n- AI 视频生成\n- 分镜脚本管理\n- 多账号管理",
     "force_update": false,
     "min_version": "0.9.0",
-    "file_size": 0,
+    "file_size": 168008786,
     "md5": "",
     "components": {
         "storyboard_detail_page": "1.0.1"
@@ -20,6 +20,6 @@
             "target_path": "_internal/src/gui/pages/storyboard/storyboard_detail_page.cp312-win_amd64.pyd"
         }
     },
-    "signature": "17fd5b944cfcf903870f2dfbdb57a59bf2af5c0b68dd100879cb5bbdf9e30e35",
-    "updated_at": "2026-02-03T13:08:24.435394Z"
+    "signature": "c45f98ce57a6172439384f6ce13f226dcb4964fe2d542f73a71f2acc7e08afde",
+    "updated_at": "2026-02-04T06:02:44.982380Z"
 }

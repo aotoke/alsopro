@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "updated_at": "2026-02-03T10:57:39.700347Z",
+    "updated_at": "2026-02-04T06:02:44.982380Z",
     "_comment": "内容过滤配置 - 敏感词、违禁词等",
     "enabled": true,
     "blocked_words": [
@@ -28,5 +28,5 @@
     },
     "remote_list_url": "",
     "_comment2": "敏感词列表可以设置 remote_list_url 从远程加载，避免放在公开仓库",
-    "signature": "cd81f9a5c499413616350a2a56c8f15e309b6bb638cc6463208f3bf2d07a3f4e"
+    "signature": "ef06cc1c3bea279949b459a8ebe456798ac93227facdf16f271e93ef9c1a5dc8"
 }
